@@ -1,0 +1,13 @@
+.jumbotron {
+	margin-top: 30px;
+}
+
+.fb-login {
+	width: 128px;
+	height: 128px;
+	background-image: url(/image/icontexto-inside-facebook.png);
+	font-size: 0;
+	color: rgba(0,0,0,0);
+	background-size: 128px 128px;
+	border: 0;
+}

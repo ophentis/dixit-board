@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>飛書人 Dixit</title>
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="style/main.css" />
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="jumbotron">
+				<div class="container">
+					<h1><img src="image/1359243371477_8146154.png" width="690" height="328" title="飛書人 Dixit"></h1>
+					<button class="fb-login">login</button>
+					<p><a class="btn btn-primary btn-lg pull-right" href="/learn">Learn more</a></p>
+				</div>
+			</div>
+		</div>
+		<div id="fb-root"></div>
+		<script>
+			window.fbAsyncInit = function() {
+				FB.init({
+					appId      : '496840903745028',                    // App ID from the app dashboard
+					status     : true,                                 // Check Facebook Login status
+					xfbml      : true                                  // Look for social plugins on the page
+				});
+			};
+
+			(function(d, s, id){
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) {return;}
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/en_US/all.js";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+	</body>
+</html>
