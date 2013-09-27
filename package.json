@@ -1,0 +1,33 @@
+{
+	"name": "dixit-board",
+	"version": "0.0.1",
+	"description": "dixit game score board",
+	"homepage": "https://github.com/ophentis/dixit-board",
+	"keywords": [
+		"dixit",
+		"boardgame",
+		"webapp"
+	],
+	"author": {
+		"name": "ophentis",
+		"email": "ophentis@gmail.com"
+	},
+	"contributors": [
+		{
+			"name": "ophentis",
+			"email": "ophentis@gmail.com"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ophentis/dixit-board"
+	},
+	"dependencies": {
+		"express": "3.4.x",
+		"socket.io": "0.9.16"
+	},
+	"engines": {
+		"node": ">= 0.4.0"
+	},
+	"main": "index"
+}
